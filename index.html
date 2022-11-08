@@ -6,48 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
     <link href="http://fonts.cdnfonts.com/css/manrope" rel="stylesheet" />
-
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="primary-header">
+    <header class="primary-navbar">
       <div class="container">
-        <div class="nav-wrapper">          
-            <a href="#" class="logo"><img src="assets/logo.svg" alt="logo" /></a>
-            <nav class="primary-navigation"></nav>
-            <ul role="list" class="nav-list">
-              <li><a href="#"></a>Home</li>
-              <li><a href="#"></a>What is GPT</li>
-              <li><a href="#"></a>Open AI</li>
-              <li><a href="#"></a>Case Studies</li>
-              <li><a href="#"></a>Library</li>
+        <div class="navbar-container">  
+          <div class="logo-container">
+            <a href="#" >              
+              <img src="assets/logo.svg" alt="logo" />
+            </a>
+          </div>        
+            <nav class="primary-navigation">          
+            <ul role="list" class="nav-list fw-semi-regular">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">What is GPT?</a></li>
+              <li><a href="#">Open AI</a></li>
+              <li><a href="#">Case Studies</a></li>
+              <li><a href="#">Library</a></li>
             </ul>
           </nav>
             <div class="auth">
-              <button class="btn">Sign in</button>
+              <p class="btn btn-link">Sign in</p>
               <button class="btn btn-primary">Sign up</button>
             </div>
         </div>
       </div>
     </header>
+
     <main>
       <section class="hero">
-        <div class="container">
-          <div class="nav-wrapper">
-            <div class="even-columns">
-              <div>
-                <h1 class="primary-heading fw-bold">
+        <div class="container">          
+            <div class="hero-container">
+              <div class="hero_content">
+                <h1 class="primary-heading fs-primary-heading fw-bold">
                   Let's Build Something amazing with GPT-3 OpenAI
                 </h1>
-                <p>
+                <p class="text-primary-400 fs-600 fw-400">
                   Yet bed any for travelling assistance indulgence unpleasing.
                   Not thoughts all exercise blessing. Indulgence way everything
                   joy alteration boisterous the attachment. Party we years to
                   order allow asked of.
                 </p>
-                <input type="email" placeholder="You Email Here" />
-                <button class="btn btn-primary">Get Started</button>
-                <div class="people">
+                <form>
+                  <input class=" fs-450" type="email" placeholder="You Email Here" />
+                  <button class="btn btn-primary">Get Started</button>
+                </form>
+                  <div class="people">
                   <img src="assets/people.png" alt="people" />
                   <p>1,600 people requested access a visit in last 24 hours</p>
                 </div>
@@ -56,18 +61,22 @@
                 <img src="assets/ai.png" alt="ai image" />
               </div>
             </div>
-          </div>
+          
         </div>
       </section>
+
       <section class="companies">
+        <div class="container">
         <img src="assets/google.png" alt="" />
         <img src="assets//slack.png" alt="" />
         <img src="assets/atlassian.png" alt="" />
         <img src="assets/dropbox.png" alt="" />
         <img src="assets/shopify.png" alt="" />
+        </div>
       </section>
 
       <section class="gpt3">
+        <div class="container">
         <div>
           <h3>What is GPT-3</h3>
           <p>
@@ -109,8 +118,10 @@
             entrance to on by. As put impossible own apartments b
           </p>
         </div>
+        </div>
       </section>
       <section class="feature1">
+        <div class="container">
         <h2 class="fs-secondary-heading fw-bold fs-700">
           The Future is Now and You Just Need To Realize It. Step into Future
           Today & Make it Happen.
@@ -152,8 +163,10 @@
             <p></p>
           </li>
         </ul>
+        </div>
       </section>
       <section class="feature2">
+        <div class="container">
         <div>
           <img src="assets/possibility.png" alt="posibility image" />
         </div>
@@ -166,16 +179,21 @@
             asked of.
           </p>
         </div>
+        </div>
       </section>
       <section class="cta">
+        <div class="container">
         <h3>Register today & start exploring the endless possiblities.</h3>
         <button>Get Started</button>
       </section>
       <section class="blog">
+        <div class="container">
         <h1>A lot is happening, We are blogging about it.</h1>
         <div class="blog-card-wrapper"></div>
+        </div>
       </section>
       <footer class="footer">
+        <div class="container">
         <nav class="footer-nav">
           <div class="footer-logo">
             <a href=""><img src="assets/logo.svg" alt="footer logo" /></a>
@@ -206,6 +224,7 @@
             </ul>
           </div>
         </nav>
+        </div>
       </footer>
       <p>© 2021 GPT-3. All rights reserved.</p>
     </main>
